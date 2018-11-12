@@ -15,3 +15,7 @@ Then hit the below url in another tab or through rest client
 http://localhost:8443/freebies/send
 
 then you see the response in the events tab. Client side you can use EventSource to implement the real time data to the dashboard
+
+This project is like sample how it works with server side events. The same way you can pass any object send to the dashboard.
+
+Any doubts mail me @ balachandar.bdu@yahoo.com
