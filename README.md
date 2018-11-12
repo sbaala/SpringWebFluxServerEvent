@@ -1,6 +1,6 @@
 # SpringWebFluxServerEvent
 
-Spring reactive web flux server event is like a websocket. Whenever you receive some events server side immediately you can send the data to dashboard or another evernt or service. 
+Spring reactive web flux server event is like a websocket. Whenever you receive some events server side immediately you can send the data to dashboard or another event or service. 
 
 This example will demonstrate if you receive the send resource action immediately it will send the data to events api.
 
