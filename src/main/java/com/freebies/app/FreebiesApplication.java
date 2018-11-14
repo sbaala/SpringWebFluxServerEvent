@@ -56,6 +56,11 @@ public class FreebiesApplication extends NettyReactiveWebServerFactory{
     public void test() {
         sink.next("Hello World #" + counter.getAndIncrement());
     }
+	
+    @GetMapping("/request")
+    public void sendRequest(@RequestParam("param1") String param1 ) {
+        sink.next("Your input " + param1 );
+    }
 
     @SuppressWarnings({ "unchecked", "rawtypes" })
 	@RequestMapping(value ="events",produces = MediaType.TEXT_EVENT_STREAM_VALUE)
