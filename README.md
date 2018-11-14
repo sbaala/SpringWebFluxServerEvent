@@ -10,9 +10,18 @@ Enter the below url in browser
 
 http://localhost:8443/freebies/events
 
+
 Then hit the below url in another tab or through rest client
 
 http://localhost:8443/freebies/send
+
+Another use case you can pass any parameter in the below URL
+
+http://localhost:8443/freebies/request?param1="Bala"
+
+you will get the output in the events tab 
+
+data:Your input "Bala"
 
 then you see the response in the events tab. Client side you can use EventSource to implement the real time data to the dashboard
 
